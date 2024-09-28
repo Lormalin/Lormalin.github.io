@@ -1,109 +1,147 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đỗ Minh Khoa - CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header h1 {
-            text-align: center;
-            text-transform: uppercase;
-            margin: 0;
-            font-size: 24px;
-        }
-        section {
-            padding: 20px;
-            background: #ffffff;
-            margin-top: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #35424a;
-            font-size: 18px;
-            border-bottom: 2px solid #e8491d;
-        }
-        p {
-            line-height: 1.5;
-        }
-        img {
-            display: block;
-            margin: 20px auto;
-            width: 150px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>CV - Ocat</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Fly Nerd">
+  <link rel="icon" href="./img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<header>
-    <h1>Đỗ Minh Khoa</h1>
-</header>
-
-<div class="container">
-    <!-- Chèn hình ảnh -->
-    <img src="12A16_25.JPG" >
-
+  <header>
+    <div>
+      <img src="./img/avatar.jpg" />
+    </div>
+    <h1>Ocat Verdigris</h1>
     <section>
-        <h2>Thông Tin Liên Hệ</h2>
-        <p><strong>Địa chỉ:</strong> Thành phố Hồ Chí Minh</p>
-        <p><strong>Số điện thoại:</strong> 0327365651</p>
-        <p><strong>Email:</strong> minhkhoa15112003@gmail.com</p>
+      <p>Hello! I am Ocat Verdigris. I work as interface and front-end developer. I have passion for pixel perfect, minimal and easy to use interfaces. I'm  focused, dedicated, hard-working and willing to learn in a changing and challenging environment.</p>
+      <a href="https://www.facebook.com/flynerdpl/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com/flynerdpl/" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/ritaly" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.instagram.com/flynerdpl/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ritalyczywek/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Courses & Workshops</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>Udacity: Intro to HTML and CSS</h4>
+        </div>
+        <div class="descrition">
+          <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Udemy: The Web Developer Bootcamp</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>EdX: Web Programming with JavaScript</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Django Girls: 2-Day Workshops</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn back-end development with simple blog application using Django  framework.</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript ES5/6</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>jQuery</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+            <li>Django</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>🇵🇱 Polish - Native speaker</p>
+          <p>🇬🇧 English - Proficient C1/C2</p>
+          <p>🇫🇷 French - Advanced - C1</p>
+          <p>🇪🇸 Spanish - Intermediate - B1/B2</p>
+          <p>🇩🇪 German - Elementary / Communicative - A2</p>
+        </div>
+      </div>
     </section>
 
     <section>
-        <h2>Giáo Dục</h2>
-        <p><strong>Đại học Sài Gòn</strong> - Chuyên ngành Công nghệ Thông tin (9/2021 - 6/2025)</p>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>2015-2018</span> <strong>Octocats tech academy</strong>
+        </div>
+        <div class="descrition">
+          Bechelor Degree of Octorobotics
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>2012-2015</span> <strong>Underwater kittens high school</strong>
+        </div>
+        <div>
+          Main subject: Cathemathics
+        </div>
+      </article>
     </section>
-
     <section>
-        <h2>Dự Án</h2>
-        <p><strong>Cấu hình VPN: GRE qua IPsec Site-to-Site</strong></p>
-        <ul>
-            <li>Thiết lập đường hầm GRE qua IPsec để đảm bảo giao tiếp an toàn.</li>
-            <li>Cấu hình router cho mã hóa IPsec và đóng gói GRE.</li>
-            <li>Kiểm tra và xử lý sự cố kết nối.</li>
-        </ul>
-        <p><strong>Lưu trữ Website trên VPS</strong></p>
-        <ul>
-            <li>Thuê và cấu hình VPS cho việc lưu trữ website.</li>
-            <li>Cấu hình DNS và cài đặt chứng chỉ SSL để bảo mật.</li>
-        </ul>
+      <h3>Experience</h3>
+      <article>
+        <div class='job-title'>
+          <span>03.2018 - 06.2018</span> <strong>Tentacles Company</strong><br> <strong>Position:</strong> Web developer Intern
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery</p>
+          <ul class="job-description">
+            <li>Develop web application for Octopoda departments</li>
+            <li>Implement UI (front-end site) based on received graphic design and requirements</li>
+            <li>Co-operate with the back-end team </li>
+          </ul>
+        </div>
+      </article>
     </section>
-
-    <section>
-        <h2>Kỹ Năng</h2>
-        <ul>
-            <li>Khả năng đọc, hiểu và nghiên cứu tài liệu tiếng Anh.</li>
-            <li>Kiến thức về Bảo mật - Mức CCNA Security.</li>
-            <li>Cấu hình Router, Switch và VPN - Mức CCNA.</li>
-            <li>Cấu hình cơ bản Cisco ASA – Mức CCNA Security.</li>
-            <li>Cấu hình VPN (IPsec, GRE VPN) - Mức CCNA Security.</li>
-            <li>Có khả năng cấu hình định tuyến và chuyển mạch trong môi trường mạng - Mức CCNA.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Chứng Nhận</h2>
-        <p>Chứng chỉ CCNA (VNPRO)</p>
-    </section>
-</div>
-
+  </main>
+  <footer>
+    <p>Created by: <a href="https://www.flynerd.pl/">@flynerd</a>  / <a href="https://www.linkedin.com/in/ritalyczywek/">LinkedIn</a> / 2018 </p>
+  </footer>
 </body>
 </html>
