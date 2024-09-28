@@ -1,163 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>Draco by @afnizarnur</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/kube.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.min.css" />
-    <link rel="shortcut icon" href="img/favicon.png" />
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<style>
-		.intro h1:before {
-			/* Edit this with your name or anything else */
-			content: 'DRACO';
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đỗ Minh Khoa - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #35424a;
+            font-size: 18px;
+            border-bottom: 2px solid #e8491d;
+        }
+        p {
+            line-height: 1.5;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+        }
+    </style>
 </head>
 <body>
-	<!-- Navigation -->
-	<div class="main-nav">
-		<div class="container">
-			<header class="group top-nav">
-				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">DRACO</span>
-				</div>
-			    <nav id="navbar-1" class="navbar item-nav">
-				    <ul>
-				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
-				        <li><a href="#achievements">Achievements</a></li>
-				        <li><a href="#skills">Skills</a></li>
-				    </ul>
-				</nav>
-			</header>
-		</div>
-	</div>
 
-	<!-- Introduction -->
-	<div class="intro section" id="about">
-		<div class="container">
-			<p>Hi, I’m Draco the Dragon</p>
-			<div class="units-row units-split wrap">
-				<div class="unit-20">
-					<img src="img/ava.jpg" alt="Avatar">
-				</div>
-				<div class="unit-80">
-					<h1>I live in<br><span id="typed"></span></h1>
-				</div>
-				<p>
-					Draco is a constellation in the far northern sky. Its name is Latin for dragon. Draco is circumpolar (that is, never setting) for many observers in the northern hemisphere. It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy.
-				</p>
-			</div>
-		</div>
-	</div>
+<header>
+    <h1>Đỗ Minh Khoa</h1>
+</header>
 
-	<!-- Work Experience -->
-	<div class="work section second" id="experiences">
-		<div class="container">
-			<h1>Work<br>Experiences</h1>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">PT Traveloka Indonesia</a></li>
-				<li>Web Designer</li>
-			</ul>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Wego</a></li>
-				<li>UI/UX Designer</li>
-			</ul>
-			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">Garuda Indonesia</a></li>
-				<li>System Designer</li>
-			</ul>
-		</div>
-	</div>
+<div class="container">
+    <!-- Chèn hình ảnh -->
+    <img src="12A16_25.JPG" >
 
-	<!-- Award & Achievements -->
-	<div class="award section second" id="achievements">
-		<div class="container">
-			<h1>Award &amp;<br>Achievements</h1>
-			<ul class="award-list list-flat">
-				<li>January 2014</li>
-				<li>Attained PHP5 certification</li>
-				<li>Hold world/Olympic record</li>
-			</ul>
-			<ul class="award-list list-flat">
-				<li>December 2014</li>
-				<li>Audited X number of clients in only Y amount of time</li>
-				<li>Held a perfect attendance record</li>
-				<li>Were promoted after only X months in the role</li>
-			</ul>
-			<ul class="award-list list-flat">
-				<li>March 2014</li>
-				<li>Placed employees at X companies</li>
-				<li>United multiple teams post-merger</li>
-			</ul>
-		</div>
-	</div>
+    <section>
+        <h2>Thông Tin Liên Hệ</h2>
+        <p><strong>Địa chỉ:</strong> Thành phố Hồ Chí Minh</p>
+        <p><strong>Số điện thoại:</strong> 0327365651</p>
+        <p><strong>Email:</strong> minhkhoa15112003@gmail.com</p>
+    </section>
 
-	<!-- Technical Skills -->
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li>HTML / CSS / SASS / PHP / Javascript</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Database</li>
-				<li>MySQL / MongoDB / Oracle / Access</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Framework</li>
-				<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
-			</ul>
-		</div>
-	</div>
+    <section>
+        <h2>Giáo Dục</h2>
+        <p><strong>Đại học Sài Gòn</strong> - Chuyên ngành Công nghệ Thông tin (9/2021 - 6/2025)</p>
+    </section>
 
-	<!-- Quote -->
-	<div class="quote">
-		<div class="container text-centered">
-			<h1>fight against the ugliness.</h1>
-		</div>
-	</div>
+    <section>
+        <h2>Dự Án</h2>
+        <p><strong>Cấu hình VPN: GRE qua IPsec Site-to-Site</strong></p>
+        <ul>
+            <li>Thiết lập đường hầm GRE qua IPsec để đảm bảo giao tiếp an toàn.</li>
+            <li>Cấu hình router cho mã hóa IPsec và đóng gói GRE.</li>
+            <li>Kiểm tra và xử lý sự cố kết nối.</li>
+        </ul>
+        <p><strong>Lưu trữ Website trên VPS</strong></p>
+        <ul>
+            <li>Thuê và cấu hình VPS cho việc lưu trữ website.</li>
+            <li>Cấu hình DNS và cài đặt chứng chỉ SSL để bảo mật.</li>
+        </ul>
+    </section>
 
-	<footer>
-		<div class="container">
-			<div class="units-row">
-			    <div class="unit-50">
-			    	<p>Handcrafted by Afnizar Nur Ghifari</p>
-			    </div>
-			    <div class="unit-50">
-					<ul class="social list-flat right">
-						<li><a href="mailto:afnizarhilmi@gmail.com"><i class="fa fa-send"></i></a></li>
-						<li><a href="http://twitter.com/afnizarnur"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="http://dribbble.com/afnizarnur"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="http://behance.com/afnizarnur"><i class="fa fa-behance"></i></a></li>
-					</ul>
-			    </div>
-			</div>
-		</div>
-	</footer>
+    <section>
+        <h2>Kỹ Năng</h2>
+        <ul>
+            <li>Khả năng đọc, hiểu và nghiên cứu tài liệu tiếng Anh.</li>
+            <li>Kiến thức về Bảo mật - Mức CCNA Security.</li>
+            <li>Cấu hình Router, Switch và VPN - Mức CCNA.</li>
+            <li>Cấu hình cơ bản Cisco ASA – Mức CCNA Security.</li>
+            <li>Cấu hình VPN (IPsec, GRE VPN) - Mức CCNA Security.</li>
+            <li>Có khả năng cấu hình định tuyến và chuyển mạch trong môi trường mạng - Mức CCNA.</li>
+        </ul>
+    </section>
 
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-    <script>
-		function newTyped(){}$(function(){$("#typed").typed({
-		// Change to edit type effect
-		strings: ["far northern sky", "your galaxy", "everywhere"],
+    <section>
+        <h2>Chứng Nhận</h2>
+        <p>Chứng chỉ CCNA (VNPRO)</p>
+    </section>
+</div>
 
-		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-    </script>
 </body>
 </html>
